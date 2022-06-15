@@ -1,0 +1,19 @@
+### Cadastro
+POST http://localhost:3003/signup
+Content-Type: application/json
+
+### Login
+POST http://localhost:3003/login
+Content-Type: application/json
+
+### Adicionar Receita
+POST http://localhost:3003/recipes
+Content-Type: application/json
+
+### Pegar Receitas
+GET http://localhost:3003/user/feed
+Content-Type: application/json
+
+### Pegar Receita por ID
+GET http://localhost:3003/recipe/:id
+Content-Type: application/json
